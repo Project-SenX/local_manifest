@@ -6,6 +6,7 @@
     <remote name="munch-devs" fetch="https://codeberg.org/munch-devs" />
     <remote name="kenway214" fetch="https://github.com/kenway214" />
     <remote name="PocoF3Releases" fetch="https://github.com/PocoF3Releases" />
+    <remote name="SenseiiX" fetch="https://github.com/SenseiiX" />
     
     <!-- Remove projects that will be replaced -->
     <remove-project name="LineageOS/android_packages_resources_devicesettings" />
@@ -32,11 +33,6 @@
         remote="Project-SenX"
         revision="lineage-23.0" />
     <project
-        path="vendor/xiaomi/munch-firmware"
-        name="android_vendor_xiaomi_munch-firmware"
-        remote="munch-devs"
-        revision="vic" />
-    <project
         path="vendor/xiaomi/miuicamera"
         name="android_vendor_xiaomi_miuicamera"
         remote="munch-devs"
@@ -48,9 +44,9 @@
         revision="lineage-23.0" />
     <project
         path="kernel/xiaomi/sm8250"
-        name="android_kernel_xiaomi_sm8250"
-        remote="Project-SenX"
-        revision="RKSU" />
+        name="fusionX_sm8250"
+        remote="SenseiiX"
+        revision="mod" />
     <project
         path="packages/apps/GameBar"
         name="packages_apps_GameBar"
