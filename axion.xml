@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Usage: paste code to .repo/local_manifests/default.xml in rom source root and repo sync -->
 <manifest>
     <!-- Remotes -->
     <remote name="Project-SenX" fetch="https://github.com/Project-SenX" />
@@ -22,6 +21,11 @@
         name="android_device_xiaomi_sm8250-common"
         remote="Project-SenX"
         revision="lineage-23.0" />
+    <project
+        path="vendor/xiaomi/munch-firmware"
+        name="android_vendor_xiaomi_munch-firmware"
+        remote="munch-devs"
+        revision="vic" />
     <project
         path="vendor/xiaomi/munch"
         name="android_vendor_xiaomi_munch"
