@@ -20,7 +20,7 @@
         path="device/xiaomi/sm8250-common"
         name="android_device_xiaomi_sm8250-common"
         remote="Project-SenX"
-        revision="lineage-23.0" />
+        revision="lineage-23.1" />
     <project
         path="vendor/xiaomi/munch-firmware"
         name="android_vendor_xiaomi_munch-firmware"
