@@ -45,7 +45,7 @@
         path="hardware/xiaomi"
         name="android_hardware_xiaomi"
         remote="Project-SenX"
-        revision="lineage-23.0" />
+        revision="lineage-23.1" />
     <project
         path="kernel/xiaomi/sm8250"
         name="fusionX_sm8250"
