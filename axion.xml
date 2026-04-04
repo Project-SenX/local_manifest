@@ -3,7 +3,6 @@
     <!-- Remotes -->
     <remote name="Project-SenX" fetch="https://github.com/Project-SenX" />
     <remote name="munch-devs" fetch="https://codeberg.org/munch-devs" />
-    <remote name="kenway214" fetch="https://github.com/kenway214" />
     <remote name="PocoF3Releases" fetch="https://github.com/PocoF3Releases" />
     <remote name="SenX-Project" fetch="https://github.com/SenX-Project" />
     
@@ -54,8 +53,8 @@
     <project
         path="packages/apps/GameBar"
         name="packages_apps_GameBar"
-        remote="kenway214"
-        revision="main" />
+        remote="Project-SenX"
+        revision="lineage-23.2" />
     <project
         path="packages/resources/devicesettings"
         name="packages_resources_devicesettings"
