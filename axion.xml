@@ -5,9 +5,6 @@
     <remote name="munch-devs" fetch="https://codeberg.org/munch-devs" />
     <remote name="SenX-Project" fetch="https://github.com/SenX-Project" />
     
-    <!-- Remove projects that will be replaced -->
-    <remove-project name="LineageOS/android_packages_resources_devicesettings" />
-    
     <!-- Projects -->
     <project
         path="device/xiaomi/munch"
