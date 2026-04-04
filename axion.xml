@@ -3,7 +3,6 @@
     <!-- Remotes -->
     <remote name="Project-SenX" fetch="https://github.com/Project-SenX" />
     <remote name="munch-devs" fetch="https://codeberg.org/munch-devs" />
-    <remote name="PocoF3Releases" fetch="https://github.com/PocoF3Releases" />
     <remote name="SenX-Project" fetch="https://github.com/SenX-Project" />
     
     <!-- Remove projects that will be replaced -->
@@ -55,11 +54,6 @@
         name="packages_apps_GameBar"
         remote="Project-SenX"
         revision="lineage-23.2" />
-    <project
-        path="packages/resources/devicesettings"
-        name="packages_resources_devicesettings"
-        remote="PocoF3Releases"
-        revision="aosp-16" />
     <project
         path="vendor/lineage-priv/keys"
         name="priv-keys"
